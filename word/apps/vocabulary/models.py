@@ -10,5 +10,5 @@ class WordA(BaseModel):
 
     class Meta:
         db_table = 'tb_a'
-        verbose_name = 'a开头的单词'
+        verbose_name = '全部单词'
         verbose_name_plural = verbose_name
